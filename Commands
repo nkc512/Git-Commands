@@ -14,3 +14,8 @@ git add -u
 
 Remove multiple deleted files from github
 git rm `git status | grep deleted | awk '{print $2}'`
+
+Remove binary files already added in git
+1. add gitigore file
+2. commit changes 
+3. git ls-files --ignored --exclude-standard -z | xargs -0 git rm --cached
