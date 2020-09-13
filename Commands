@@ -1,3 +1,6 @@
+https://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore
+https://stackoverflow.com/a/20241145/10042747
+
 error: pathspec did not match any file(s) known to git
 
 Solution : git fetch
